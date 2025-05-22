@@ -37,7 +37,7 @@
 
 ### Crash Utilities
 
-- Enabled FTB loaded chunk removal after 7 days (will unload any force loaded chunks. Does not unclaim them)
+- ~~Enabled FTB loaded chunk removal after 7 days (will unload any force loaded chunks. Does not unclaim them)~~ - Handled by FTB Chunks
 
 ### Enderman Overhaul
 
