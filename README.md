@@ -1,5 +1,11 @@
 # ATM10-Configs
 
+## Config Changes - May 26th, 2025
+
+### MineColonies
+
+- Enabled workers during rainstorms
+
 ## Config Changes - May 20th, 2025
 
 ### Actually Additions

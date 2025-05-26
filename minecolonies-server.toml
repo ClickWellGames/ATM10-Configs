@@ -19,7 +19,7 @@
 	#Should citizen name tags be rendered? [Default: true]
 	alwaysrendernametag = true
 	#Should workers work during the rain? [Default: false]
-	workersalwaysworkinrain = false
+	workersalwaysworkinrain = true
 	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	# Default: 1
 	# Range: 0 ~ 100
