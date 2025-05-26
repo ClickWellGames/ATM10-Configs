@@ -4,7 +4,7 @@
 
 ### MineColonies
 
-- Enabled workers during rainstorms
+- Enabled workers during rainstorms - *Requested by Doruaraebe*
 
 ## Config Changes - May 20th, 2025
 
