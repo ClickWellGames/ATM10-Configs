@@ -1,12 +1,6 @@
 # ATM10-Configs
 
-## Config Changes - May 26th, 2025
-
-### MineColonies
-
-- Enabled workers during rainstorms - *Requested by Doruaraebe*
-
-## Config Changes - May 20th, 2025
+## Config Changes
 
 ### Actually Additions
 
@@ -143,6 +137,7 @@
 ### MineColonies
 
 - Disabled force loading
+- Enabled workers during rainstorms - *Requested by Doruaraebe* - May 26th, 2025
 
 ### Mob Grinding Utils
 
@@ -217,3 +212,7 @@
 
 - Enabled casket locking
 - Disabled portal creation (will be enabled at a later date based on community progression)
+
+### Waystones
+
+- Enabled placing global waystones by players not in creative - *Requested by ClickWell* - May 27th, 2025
