@@ -22,6 +22,10 @@
 
 - Disabled Wilden Chimera dive bomb block damage
 
+### Chunky
+
+- Enabled continue on restart
+
 ### Comforts
 
 - Enabled hammock use during DAY and NIGHT
