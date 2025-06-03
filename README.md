@@ -132,7 +132,7 @@
 - Enabled strict unboxing (prevents block vaporization)
 - Decreased multiplier of silk touch mode for digital miner from 12 to 10
 - ~~Increased tick time between mine from 80 to 100~~
-- Decreased tick time between mine from 100 to 60 - June 1st, 2025
+- Decreased tick time between mine from 100 to 20 - June 3rd, 2025
 - Enabled security system Admin bypass to allow CW Admins to interact with all Mekanism machines
 
 ### MFFS
