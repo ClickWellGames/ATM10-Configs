@@ -216,7 +216,7 @@
 ### Twilight Forest
 
 - Enabled casket locking
-- Disabled portal creation (will be enabled at a later date based on community progression)
+- ~~Disabled portal creation (will be enabled at a later date based on community progression)~~ - *Requested by ClickWell* - June 6th, 2025
 
 ### Waystones
 
