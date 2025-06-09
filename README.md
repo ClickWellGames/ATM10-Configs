@@ -179,6 +179,12 @@
 
 - Disabled chunkloading of all quarry blocks
 
+### Reqliquary
+
+- Increased Fertile Lilypad growth range from 5 to 10
+- Increased maximum growth strength range from 1 to 10
+- Decreased seconds between growth ticks from 10 to 3
+
 ### RFTools Builder
 
 - Disabled chunkloading of quarry
