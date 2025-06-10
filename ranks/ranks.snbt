@@ -1,0 +1,75 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+		ftbessentials.home.max: 5
+		command.ftbranks: false
+		command.ftbchunks.unclaim_all: false
+		command.gamerule: false
+		command.ftbchunks.admin.unclaim_everything: false
+		command.ftbchunks.unload_all: false
+		command.spawn: true
+		ftbchunks.chunk_load_offline: true
+		command.whitelist: false
+		command.op: false
+		command.ftbteams.server: false
+		command.deop: false
+		command.ftbchunks.admin.extra_claim_chunks: false
+		command.ftbchunks.admin.extra_force_load_chunks: false
+		command.ftbchunks.admin.unload_everything: false
+		mekanism.bypass_security: false
+	}
+	modwell: {
+		name: "ModWell"
+		power: 50
+		ftbranks.name_format: "&cModWell&r: {name}"
+	}
+	op: {
+		name: "Server Admin"
+		power: 100
+		condition: "op"
+		command.spark: true
+	}
+	cwadmin: {
+		name: "CraftWell Admin"
+		power: 200
+		command.ftbranks: true
+		command.save-all: true
+		command.ftbchunks.unclaim_all: true
+		command.gamerule: true
+		ftbranks.name_format: "&bCW Admin&r: {name}"
+		command.ftbchunks.admin.unclaim_everything: true
+		command.ftbchunks.unload_all: true
+		command.whitelist: true
+		command.ftbchunks.admin.extra_force_load_chunks: true
+		command.op: true
+		command.ftbteams.server: true
+		command.deop: true
+		command.ftbchunks.admin.extra_claim_chunks: true
+		command.ftbchunks.admin.unload_everything: true
+		ftbchunks.chunk_load_offline: true
+		ftbessentials.home.max: 10
+		ftbessentials.home.cooldown: 0
+		ftbessentials.back.cooldown: 0
+		ftbessentials.tpa.cooldown: 0
+		ftbessentials.warp.cooldown: 0
+		ftbessentials.rtp.cooldown: 0
+		mekanism.bypass_security: true
+	}
+	ontop: {
+		name: "On Top"
+		power: 250
+		ftbranks.name_format: "&2On Top&r: {name}"
+	}
+	onbottom: {
+		name: "On Bottom"
+		power: 300
+		ftbranks.name_format: "&2On Bottom&r: {name}"
+	}
+	cameraguy: {
+		name: "Camera Guy"
+		power: 260
+		ftbranks.name_format: "&2Camera Guy&r: {name}"
+	}
+}
