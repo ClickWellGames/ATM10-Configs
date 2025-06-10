@@ -64,10 +64,12 @@
 
 - Enabled location mode override (all players will appear on map regardless of team setting)
 - Changed PvP setting to per-team
-- Reduced max claimed chunks per player to 50
+- ~~Reduced max claimed chunks per player to 50~~
+- Increased max claimed chunks per player from 50 to 90 - *Requested by Mr. Sir* - June 10th, 2025
+- ~~Reduced max force loaded chunks per player to 15~~
+- Increased max force loaded chunks per player to 30 from 15 - *Requested by Mr. Sir* - June 10th, 2025
 - Increased idle player unclaim time from 0 days to 30 days (Any player who has not joined in more than 30 days will have all claimed chunks unclaimed)
 - Changed party chunk limit mode to SUM
-- Reduced max force loaded chunks per player to 15
 - Increased idle player unload time from 0 days to 7 days (Any player who has not joined in more than 7 days will have all force loaded chunks unloaded)
 - Changed long range player visibility from allies to public
 - Changed default force load mode to "always" from "default" - *Requested by Mr. Sir* - June 10th, 2025
