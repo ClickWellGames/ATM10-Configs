@@ -70,6 +70,7 @@
 - Reduced max force loaded chunks per player to 15
 - Increased idle player unload time from 0 days to 7 days (Any player who has not joined in more than 7 days will have all force loaded chunks unloaded)
 - Changed long range player visibility from allies to public
+- Changed default force load mode to "always" from "default" - *Requested by Mr. Sir* - June 10th, 2025
 
 ### FTB Essentials
 
