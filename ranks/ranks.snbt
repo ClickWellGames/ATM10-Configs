@@ -19,11 +19,50 @@
 		command.ftbchunks.admin.extra_force_load_chunks: false
 		command.ftbchunks.admin.unload_everything: false
 		mekanism.bypass_security: false
+		command.fluxnetworks: false
+		command.ftbchunks.admin: false
+		command.crashutilities.unstuck: true
+		command.crashutilities: true
+		command.gamerule: false
+		command.recording: true
+		command.streaming: true
+		command.reload: false
+		command.stop: false
+		command.trashcan: true
+
 	}
 	modwell: {
 		name: "ModWell"
 		power: 50
 		ftbranks.name_format: "&cModWell&r: {name}"
+		command.kick: true
+		command.kick.targets: true
+		command.kick.targets.reason: true
+		command.kickme: true
+		command.mute: true
+		command.mute.player: true
+		command.mute.player.until: true
+		command.unmute: true
+		command.unmute.player: true
+		command.pardon: true
+		command.pardon.targets: true
+		command.spectate.target: true
+		command.spectate.target.player: true
+		command.teleport: true
+		command.teleport.targets: true
+		command.teleport.targets.destination: true
+		command.teleport.destination: true
+		command.teleport_last: true
+		command.teleport_last.player: true
+		command.weather: true
+		command.weather.clear: true
+		command.weather.clear.duration: true
+		command.banlist: true
+		command.banlist.players: true
+		command.ban: true
+		command.ban.targets: true
+		command.ban.targets.reason: true
+
 	}
 	op: {
 		name: "Server Admin"
@@ -55,7 +94,10 @@
 		ftbessentials.tpa.cooldown: 0
 		ftbessentials.warp.cooldown: 0
 		ftbessentials.rtp.cooldown: 0
+		command.ftbchunks.admin: true
 		mekanism.bypass_security: true
+		command.fluxnetworks: true
+		command.gamerule: true
 	}
 	ontop: {
 		name: "On Top"
