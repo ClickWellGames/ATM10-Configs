@@ -57,6 +57,14 @@
 	# Default: -20
 	# Range: -500 ~ 0
 	points_zombify_villager = -20
+	#Points for killing a villager [-500..0|default:-15]
+	# Default: -15
+	# Range: -500 ~ 0
+	points_kill_villager = -15
+	#Points for killing a raider [0..500|default:5]
+	# Default: 5
+	# Range: 0 ~ 500
+	points_kill_raider = 5
 	#Points for tablet of cupidity [-500..0|default:-10]
 	# Default: -10
 	# Range: -500 ~ 0
@@ -73,14 +81,6 @@
 	# Default: -10
 	# Range: -500 ~ 0
 	points_kill_tamed_creature = -10
-	#Points for killing some entities decreasing alignment [-500..0|default:-10]
-	# Default: -10
-	# Range: -500 ~ 0
-	points_kill_decreasing_alignment = -10
-	#Points for killing some entities increasing alignment [0..500|default:10]
-	# Default: 10
-	# Range: 0 ~ 500
-	points_kill_increasing_alignment = 10
 
 #Miscellaneous options
 [general]
@@ -100,14 +100,14 @@
 	# Default: -1
 	# Range: -1 ~ 1440
 	cooldown_teleport_death = -1
+	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
+	# Default: 5000
+	# Range: 1000 ~ 100000
+	easter_egg_spawn_rarity = 5000
 	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["minecraft:hero_of_the_village", "relics:immortality"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
-	#Allows to limit the damages done by Decrepitude
-	# Default: 2147483647
-	# Range: > 1
-	decrepitude_max_damage = 2147483647
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
@@ -205,8 +205,6 @@
 	# Default: 2000
 	# Range: 100 ~ 200000
 	max_xp_lost_page = 2000
-	#Denied mods for equipment drops
-	denied_modid_for_equipment = ["tombstone"]
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -216,14 +214,3 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
-
-#Allows to enable special events
-[special_events]
-	#Allows Halloween [false/true|default:true]
-	allow_halloween = true
-	#Allows Christmas [false/true|default:true]
-	allow_christmas = true
-	#Allows Easter [false/true|default:true]
-	allow_easter = true
-	#Allows April Fools [false/true|default:true]
-	allow_april_fools = true
