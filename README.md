@@ -134,9 +134,10 @@
 - Increased rate of Solar Neutron Activator from 256 to 512
 - Enabled strict unboxing (prevents block vaporization)
 - Decreased multiplier of silk touch mode for digital miner from 12 to 10
-- ~~Increased tick time between mine from 80 to 100~~
+- ~~Increased tick time between mine from 80 to 100~~ - June 3rd, 2025
 - Decreased tick time between mine from 100 to 20 - June 3rd, 2025
 - Enabled security system Admin bypass to allow CW Admins to interact with all Mekanism machines
+- Increased maximum energy capacity of Digital Miner to 150000 from 50000 - August 28th, 2025
 
 ### MFFS
 
