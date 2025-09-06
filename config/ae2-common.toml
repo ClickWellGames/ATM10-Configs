@@ -100,14 +100,6 @@
 	#How much energy a crystal resonance generator generates per tick.
 	#Range: 0.0 ~ 1000000.0
 	crystalResonanceGeneratorRate = 20.0
-	#The cost to transport energy through an energy P2P tunnel expressed as a factor of the transported energy.
-	# Default: 0.025
-	# Range: 0.0 ~ 1.0
-	p2pTunnelEnergyTax = 0.025
-	#The cost to transport items/fluids/etc. through P2P tunnels, expressed in AE energy per equivalent I/O bus operation for the transported object type (i.e. items=per 1 item, fluids=per 125mb).
-	# Default: 0.025
-	# Range: 0.0 ~ 1.0
-	p2pTunnelTransportTax = 0.025
 
 [condenser]
 	#Range: > -2147483648
